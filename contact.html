@@ -6,10 +6,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Contact Information</title>
+    <link rel="stylesheet" href="css/styles.css">
 </head>
 
 <body style="background-color: #dff6f0;">
     <h1>Contact Me: Jayasuriyan</h1>
+    <hr>
     <table>
         <tbody>
             <tr>
@@ -24,14 +26,14 @@
             </tr>
         </tbody>
     </table>
-    <form action="mailto:r.p.jayasuriyanece@outlook.com" method="post" enctype="text/plain">
+    <form class="mydataForm" action="mailto:r.p.jayasuriyanece@outlook.com" method="post" enctype="text/plain">
         <label>Your Name</label>
         <input type="text" name="yourName" id=""><br>
         <label>Your Email Id</label>
         <input type="email" name="yourEmailId" id=""><br>
         <label>Message:</label><br>
         <textarea name="yourMessage" id="" cols="30" rows="10"></textarea><br>
-        <input type="submit" value="Submit">
+        <input id="submitButton" type="submit" value="Submit">
     </form>
 </body>
 

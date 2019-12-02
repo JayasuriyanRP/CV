@@ -1,0 +1,27 @@
+body {
+    background-color: #eaf6f6;
+}
+
+hr {
+    border: none;
+    border-style: dotted none none;
+    border-width: 7px;
+    width: 10%;
+}
+
+h1 {
+    color: #66BFBF;
+}
+
+h3 {
+    color: #66BFBF;
+}
+
+.mydataForm {
+    background-color: #fef6fb;
+}
+
+#submitButton {
+    background: greenyellow;
+    display: block;
+}

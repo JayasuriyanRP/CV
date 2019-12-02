@@ -21,6 +21,10 @@ h3 {
     background-color: #fef6fb;
 }
 
+.profileImage{
+    height: 200px;
+}
+
 #submitButton {
     background: greenyellow;
     display: block;
